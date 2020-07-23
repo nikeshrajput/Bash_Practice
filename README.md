@@ -1,2 +1,1 @@
-# Bash_Practice
-Working on Bash Scripting
+Adding a line to README.md
