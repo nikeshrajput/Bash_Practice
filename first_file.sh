@@ -1,6 +1,17 @@
 #! /usr/bin/bash
 
-cat  << kreative
-this is hello creative text using hereDocDelimeter
-add another line
-kreative
+NewFile=output.sh
+
+(
+    cat <<Addtext
+    #! /usr/bin/bash
+
+    echo "This script creates a new file"
+    
+    var1 = 10
+    var2 = 20
+
+    ((result=$var1*$var2))
+    echo "The result = $result"
+    Addtext
+) > $NewFile
