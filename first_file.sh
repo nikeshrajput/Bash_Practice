@@ -3,7 +3,7 @@
 NewFile=output.sh
 
 (
-    cat <<Addtext
+    cat <<'Addtext'
     #! /usr/bin/bash
 
     echo "This script creates a new file"
