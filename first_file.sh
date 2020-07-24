@@ -8,8 +8,8 @@ cat <<'Addtext'
 
 echo "This script creates a new file"
 
-var1 = 10
-var2 = 20
+var1=10
+var2=20
 
 ((result=$var1*$var2))
 echo "The result = $result"
