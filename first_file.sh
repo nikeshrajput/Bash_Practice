@@ -1,6 +1,6 @@
 #! /usr/bin/bash
 
-cat << kreative
+cat  << kreative
 this is hello creative text using hereDocDelimeter
 add another line
 kreative
